@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F11A19D2180664200063560 /* YYUMSocialManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F11A19C2180664200063560 /* YYUMSocialManager.m */; };
 		2F271D6B217EC7710011D2F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F271D6A217EC7710011D2F1 /* AppDelegate.m */; };
 		2F271D6E217EC7710011D2F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F271D6D217EC7710011D2F1 /* ViewController.m */; };
 		2F271D71217EC7710011D2F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F271D6F217EC7710011D2F1 /* Main.storyboard */; };
 		2F271D73217EC7720011D2F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F271D72217EC7720011D2F1 /* Assets.xcassets */; };
 		2F271D76217EC7720011D2F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F271D74217EC7720011D2F1 /* LaunchScreen.storyboard */; };
 		2F271D79217EC7720011D2F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F271D78217EC7720011D2F1 /* main.m */; };
+		2F271D85217ED6250011D2F1 /* YYShareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F271D84217ED6250011D2F1 /* YYShareModel.m */; };
+		2F271D88217ED6440011D2F1 /* YYAccountModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F271D87217ED6440011D2F1 /* YYAccountModel.m */; };
+		2F271D9621805D9C0011D2F1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F271D89217EF9C90011D2F1 /* CoreData.framework */; };
+		957125D742D1C334AC7F6D8F /* libPods-LoginAndShare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCBBAA58FA9D97F7109D2C05 /* libPods-LoginAndShare.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13A505FFC4B44D76D5DF1244 /* Pods-LoginAndShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginAndShare.release.xcconfig"; path = "Target Support Files/Pods-LoginAndShare/Pods-LoginAndShare.release.xcconfig"; sourceTree = "<group>"; };
+		2F11A19B2180664200063560 /* YYUMSocialManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYUMSocialManager.h; sourceTree = "<group>"; };
+		2F11A19C2180664200063560 /* YYUMSocialManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYUMSocialManager.m; sourceTree = "<group>"; };
 		2F271D66217EC7710011D2F1 /* LoginAndShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginAndShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F271D69217EC7710011D2F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2F271D6A217EC7710011D2F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +34,13 @@
 		2F271D75217EC7720011D2F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F271D77217EC7720011D2F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F271D78217EC7720011D2F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F271D83217ED6250011D2F1 /* YYShareModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYShareModel.h; sourceTree = "<group>"; };
+		2F271D84217ED6250011D2F1 /* YYShareModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYShareModel.m; sourceTree = "<group>"; };
+		2F271D86217ED6440011D2F1 /* YYAccountModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYAccountModel.h; sourceTree = "<group>"; };
+		2F271D87217ED6440011D2F1 /* YYAccountModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYAccountModel.m; sourceTree = "<group>"; };
+		2F271D89217EF9C90011D2F1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		71023FD5EB5F078F88835335 /* Pods-LoginAndShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginAndShare.debug.xcconfig"; path = "Target Support Files/Pods-LoginAndShare/Pods-LoginAndShare.debug.xcconfig"; sourceTree = "<group>"; };
+		DCBBAA58FA9D97F7109D2C05 /* libPods-LoginAndShare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LoginAndShare.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +48,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F271D9621805D9C0011D2F1 /* CoreData.framework in Frameworks */,
+				957125D742D1C334AC7F6D8F /* libPods-LoginAndShare.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +61,8 @@
 			children = (
 				2F271D68217EC7710011D2F1 /* LoginAndShare */,
 				2F271D67217EC7710011D2F1 /* Products */,
+				F3AE9DBB150B8597CFD417AB /* Pods */,
+				AD67F0D56849B31AB73C5349 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +79,11 @@
 			children = (
 				2F271D69217EC7710011D2F1 /* AppDelegate.h */,
 				2F271D6A217EC7710011D2F1 /* AppDelegate.m */,
+				2F11A19B2180664200063560 /* YYUMSocialManager.h */,
+				2F11A19C2180664200063560 /* YYUMSocialManager.m */,
 				2F271D6C217EC7710011D2F1 /* ViewController.h */,
 				2F271D6D217EC7710011D2F1 /* ViewController.m */,
+				2F271D82217ED6110011D2F1 /* Model */,
 				2F271D6F217EC7710011D2F1 /* Main.storyboard */,
 				2F271D72217EC7720011D2F1 /* Assets.xcassets */,
 				2F271D74217EC7720011D2F1 /* LaunchScreen.storyboard */,
@@ -71,6 +93,35 @@
 			path = LoginAndShare;
 			sourceTree = "<group>";
 		};
+		2F271D82217ED6110011D2F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2F271D83217ED6250011D2F1 /* YYShareModel.h */,
+				2F271D84217ED6250011D2F1 /* YYShareModel.m */,
+				2F271D86217ED6440011D2F1 /* YYAccountModel.h */,
+				2F271D87217ED6440011D2F1 /* YYAccountModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AD67F0D56849B31AB73C5349 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F271D89217EF9C90011D2F1 /* CoreData.framework */,
+				DCBBAA58FA9D97F7109D2C05 /* libPods-LoginAndShare.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3AE9DBB150B8597CFD417AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71023FD5EB5F078F88835335 /* Pods-LoginAndShare.debug.xcconfig */,
+				13A505FFC4B44D76D5DF1244 /* Pods-LoginAndShare.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +129,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F271D7C217EC7720011D2F1 /* Build configuration list for PBXNativeTarget "LoginAndShare" */;
 			buildPhases = (
+				37B61E7B3BDB51462AEE9B4F /* [CP] Check Pods Manifest.lock */,
 				2F271D62217EC7710011D2F1 /* Sources */,
 				2F271D63217EC7710011D2F1 /* Frameworks */,
 				2F271D64217EC7710011D2F1 /* Resources */,
+				5EB3036522EB40822DF9AF2C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,6 +189,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		37B61E7B3BDB51462AEE9B4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoginAndShare-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EB3036522EB40822DF9AF2C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoginAndShare/Pods-LoginAndShare-resources.sh",
+				"${PODS_ROOT}/UMCShare/UMShare/SocialLibraries/Twitter/TwitterKitResources.bundle",
+				"${PODS_ROOT}/UMCShare/UMShare/SocialLibraries/Twitter/TwitterShareExtensionUIResources.bundle",
+				"${PODS_ROOT}/UMCShare/UMShare/UMSocialUI/UMSocialSDKResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterShareExtensionUIResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoginAndShare/Pods-LoginAndShare-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2F271D62217EC7710011D2F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -144,6 +248,9 @@
 				2F271D6E217EC7710011D2F1 /* ViewController.m in Sources */,
 				2F271D79217EC7720011D2F1 /* main.m in Sources */,
 				2F271D6B217EC7710011D2F1 /* AppDelegate.m in Sources */,
+				2F271D85217ED6250011D2F1 /* YYShareModel.m in Sources */,
+				2F11A19D2180664200063560 /* YYUMSocialManager.m in Sources */,
+				2F271D88217ED6440011D2F1 /* YYAccountModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +327,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -273,7 +380,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -283,15 +390,19 @@
 		};
 		2F271D7D217EC7720011D2F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71023FD5EB5F078F88835335 /* Pods-LoginAndShare.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8LQ47K46NT;
 				INFOPLIST_FILE = LoginAndShare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = yang.LoginAndShare;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cnj.saiya.int;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,15 +410,19 @@
 		};
 		2F271D7E217EC7720011D2F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13A505FFC4B44D76D5DF1244 /* Pods-LoginAndShare.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8LQ47K46NT;
 				INFOPLIST_FILE = LoginAndShare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = yang.LoginAndShare;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cnj.saiya.int;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
