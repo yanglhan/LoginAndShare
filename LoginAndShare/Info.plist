@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Saiya Cam</string>
+	<string>LoginAndShare</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -32,7 +32,9 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
-			<array/>
+			<array>
+				<string>twitterkit-gAJCfCx18lY3SdXnT9vsOT7Sb</string>
+			</array>
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
@@ -40,7 +42,7 @@
 	<key>FacebookAppID</key>
 	<string>243938686474485</string>
 	<key>FacebookDisplayName</key>
-	<string>Saiya Cam</string>
+	<string>LoginAndShare</string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>fbapi</string>

@@ -57,34 +57,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A4DC294CB5B3C494E983F3D3CB0E1FD /* UShareUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UShareUI.framework; path = UMShare/UMSocialUI/UShareUI.framework; sourceTree = "<group>"; };
 		0A7354D58F7B995233BA312430C04F9A /* Pods-LoginAndShare-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LoginAndShare-dummy.m"; sourceTree = "<group>"; };
 		0E0A841751ECC781AF4BEC8C7FE107AB /* Pods-LoginAndShare-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LoginAndShare-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1831BC3944D9D1B24027EDB1E9FFDA52 /* UMSocialSDKResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = UMSocialSDKResources.bundle; path = UMShare/UMSocialUI/UMSocialSDKResources.bundle; sourceTree = "<group>"; };
-		250B79450D79364CB8D3CC3EC8E3A6E2 /* libSocialTwitter.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialTwitter.a; path = UMShare/SocialLibraries/Twitter/libSocialTwitter.a; sourceTree = "<group>"; };
-		3A789619183E1723366AA93B5A77388B /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = UMShare/SocialLibraries/Facebook/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		1D3DE8EEF4FC88295339413AB249F08D /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = UMShare/SocialLibraries/Facebook/Bolts.framework; sourceTree = "<group>"; };
+		260990EFB6AE0AAFCC343A50F18F0132 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = UMShare/SocialLibraries/Facebook/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		34D1B6FCA25A033BCAE69EE8A0101FA8 /* UMSocialSDKResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = UMSocialSDKResources.bundle; path = UMShare/UMSocialUI/UMSocialSDKResources.bundle; sourceTree = "<group>"; };
 		4376439FE80F33001D50ADEF8AE9959A /* UMCCommon.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMCCommon.xcconfig; sourceTree = "<group>"; };
-		4D9D3AC01D67106085BC11B26FC8C928 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = UMShare/SocialLibraries/Facebook/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		5035CB388567133F211BB94BD3D3C7ED /* libSocialInstagram.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialInstagram.a; path = UMShare/SocialLibraries/Instagram/libSocialInstagram.a; sourceTree = "<group>"; };
+		526D18619F75F9D671E649CC9B001025 /* UMCShare.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMCShare.xcconfig; sourceTree = "<group>"; };
 		5574445673F461DE99DB3FB6E0E4AE75 /* Pods-LoginAndShare-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoginAndShare-acknowledgements.plist"; sourceTree = "<group>"; };
-		5DC73519608886C5032DEC74585025C0 /* UMShare.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMShare.framework; path = UMShare/UMShare.framework; sourceTree = "<group>"; };
 		60513A4723A68770FD23BE9CC427DD84 /* UMCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMCommon.framework; sourceTree = "<group>"; };
+		6F6F875D392108A5AE82735BE3A2B833 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = UMShare/SocialLibraries/Facebook/FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		7D901ACA2514134AF639046862EC5DE5 /* Pods-LoginAndShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoginAndShare.release.xcconfig"; sourceTree = "<group>"; };
 		7E993688F8AB069CDCC3C18551620B58 /* Pods-LoginAndShare-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoginAndShare-resources.sh"; sourceTree = "<group>"; };
-		8F33099CCE6A21FF5ECB37B9A52ED98E /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterCore.framework; path = UMShare/SocialLibraries/Twitter/TwitterCore.framework; sourceTree = "<group>"; };
-		AA5D971F7396919ED6EA56B701880BDE /* UMSocialInstagramHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialInstagramHandler.h; path = UMShare/SocialLibraries/Instagram/UMSocialInstagramHandler.h; sourceTree = "<group>"; };
+		8FFF59F9C06182CA364713A13CC5743D /* UMSocialFaceBookHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialFaceBookHandler.h; path = UMShare/SocialLibraries/Facebook/UMSocialFaceBookHandler.h; sourceTree = "<group>"; };
 		B0507F2C32D7AE71492235F8499BF1FC /* Pods-LoginAndShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoginAndShare.debug.xcconfig"; sourceTree = "<group>"; };
 		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B3CD8D7610915F0ED371141A919146C1 /* UMCShare.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMCShare.xcconfig; sourceTree = "<group>"; };
-		BEDB7D326ECD0E44B7A610BA1A46BF5E /* UMSocialTwitterHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialTwitterHandler.h; path = UMShare/SocialLibraries/Twitter/UMSocialTwitterHandler.h; sourceTree = "<group>"; };
-		C9434BAB226177757171A0552EC4B1A9 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = UMShare/SocialLibraries/Facebook/FBSDKLoginKit.framework; sourceTree = "<group>"; };
-		D1F1B8DADBF4FB242455AC0E29D21075 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = UMShare/SocialLibraries/Facebook/Bolts.framework; sourceTree = "<group>"; };
-		E2A16DAD7631645DA4AA4B7AACACE760 /* UMSocialFaceBookHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialFaceBookHandler.h; path = UMShare/SocialLibraries/Facebook/UMSocialFaceBookHandler.h; sourceTree = "<group>"; };
-		E56E9844139F8242DE1D38D230A8998F /* libSocialInstagram.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialInstagram.a; path = UMShare/SocialLibraries/Instagram/libSocialInstagram.a; sourceTree = "<group>"; };
-		E97226BF7F1B191C60D17C4A20EE9252 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterKit.framework; path = UMShare/SocialLibraries/Twitter/TwitterKit.framework; sourceTree = "<group>"; };
-		E99B6F1CAF3F17C24B7F1B0EC59F44B0 /* libSocialFacebook.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialFacebook.a; path = UMShare/SocialLibraries/Facebook/libSocialFacebook.a; sourceTree = "<group>"; };
+		C7D84A1404B101A1F64810F90ACA1413 /* UMShare.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMShare.framework; path = UMShare/UMShare.framework; sourceTree = "<group>"; };
+		D056C4AE8999E655FC67153FB6C05DA8 /* UMSocialInstagramHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialInstagramHandler.h; path = UMShare/SocialLibraries/Instagram/UMSocialInstagramHandler.h; sourceTree = "<group>"; };
+		D48A04269C380FD800E99271B89C5C6E /* UShareUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UShareUI.framework; path = UMShare/UMSocialUI/UShareUI.framework; sourceTree = "<group>"; };
+		D85FDAA4E496FA5C171365348345CEF9 /* libSocialFacebook.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialFacebook.a; path = UMShare/SocialLibraries/Facebook/libSocialFacebook.a; sourceTree = "<group>"; };
+		E3A269A025E7A091359F649F6B3BD7F9 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = UMShare/SocialLibraries/Facebook/FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		F3EA63184541FE6D5F1B1E4F296A8F2A /* libPods-LoginAndShare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LoginAndShare.a"; path = "libPods-LoginAndShare.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FBF7FCB2CDF36E934542B5B27C05F38A /* TwitterShareExtensionUIResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TwitterShareExtensionUIResources.bundle; path = UMShare/SocialLibraries/Twitter/TwitterKit.framework/TwitterShareExtensionUIResources.bundle; sourceTree = "<group>"; };
-		FC479F13BA5A58D502496CD8CACAD0BF /* TwitterKitResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = UMShare/SocialLibraries/Twitter/TwitterKit.framework/TwitterKitResources.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,30 +92,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D591D69323985AFCC6E096DA1E18F98 /* Facebook */ = {
-			isa = PBXGroup;
-			children = (
-				E2A16DAD7631645DA4AA4B7AACACE760 /* UMSocialFaceBookHandler.h */,
-				EA1C03F0A22BB6D1F0AC642FCCE13ED1 /* Frameworks */,
-			);
-			name = Facebook;
-			sourceTree = "<group>";
-		};
 		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		2A9D76E85F3D09EF70BA9CE835F7FA1A /* Twitter */ = {
-			isa = PBXGroup;
-			children = (
-				BEDB7D326ECD0E44B7A610BA1A46BF5E /* UMSocialTwitterHandler.h */,
-				82C9800286D2C1ABE5A1515D67586BBC /* Frameworks */,
-				5E709A1117C2059C00C750D12C910080 /* Resources */,
-			);
-			name = Twitter;
 			sourceTree = "<group>";
 		};
 		2BF552BD9A68D5552518354E1262717D /* UMCCommon */ = {
@@ -134,22 +109,21 @@
 			path = UMCCommon;
 			sourceTree = "<group>";
 		};
-		47E85B3F5B89D84240766E83705031E0 /* Social */ = {
+		385DD1E388BD6811E4A93C7F2609840D /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				0D591D69323985AFCC6E096DA1E18F98 /* Facebook */,
-				82E9938919E880B0160D5CB26144A373 /* Instagram */,
-				2A9D76E85F3D09EF70BA9CE835F7FA1A /* Twitter */,
+				50EEBF70BCD88C563065BB70089F3205 /* Frameworks */,
 			);
-			name = Social;
+			name = Core;
 			sourceTree = "<group>";
 		};
-		4AF9F4523BF12CAEC6C8A621EE1A854A /* Frameworks */ = {
+		3EC8BA23EEFF0B633485B375613DB5D1 /* Instagram */ = {
 			isa = PBXGroup;
 			children = (
-				E56E9844139F8242DE1D38D230A8998F /* libSocialInstagram.a */,
+				D056C4AE8999E655FC67153FB6C05DA8 /* UMSocialInstagramHandler.h */,
+				8510CF404702A96ADAAECCD28C7BBC17 /* Frameworks */,
 			);
-			name = Frameworks;
+			name = Instagram;
 			sourceTree = "<group>";
 		};
 		50B104E1F120127332F54D71493B738C /* Targets Support Files */ = {
@@ -160,6 +134,23 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		50EEBF70BCD88C563065BB70089F3205 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7D84A1404B101A1F64810F90ACA1413 /* UMShare.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		582E70E0C64FB6E790F7A9C451790FDD /* Facebook */ = {
+			isa = PBXGroup;
+			children = (
+				8FFF59F9C06182CA364713A13CC5743D /* UMSocialFaceBookHandler.h */,
+				80E4A343E379A0FE63B3C7790650DE58 /* Frameworks */,
+			);
+			name = Facebook;
+			sourceTree = "<group>";
+		};
 		58E794BB9A63A28C2DFCCE26E2377F04 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,31 +159,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5E709A1117C2059C00C750D12C910080 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				FC479F13BA5A58D502496CD8CACAD0BF /* TwitterKitResources.bundle */,
-				FBF7FCB2CDF36E934542B5B27C05F38A /* TwitterShareExtensionUIResources.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		77406DD9B223FED6A88C52AAABD70580 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				2BF552BD9A68D5552518354E1262717D /* UMCCommon */,
-				826A2FC040C4C21103948295B2FBA1CF /* UMCShare */,
+				C5062C5195957840B70B308D92B7DB11 /* UMCShare */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		7ADFB7F148859887DE51F76FBEAD7413 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B3CD8D7610915F0ED371141A919146C1 /* UMCShare.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/UMCShare";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -206,60 +179,52 @@
 			);
 			sourceTree = "<group>";
 		};
-		826A2FC040C4C21103948295B2FBA1CF /* UMCShare */ = {
+		80E4A343E379A0FE63B3C7790650DE58 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E6932650DC1146690AE176E5191F7732 /* Core */,
-				47E85B3F5B89D84240766E83705031E0 /* Social */,
-				7ADFB7F148859887DE51F76FBEAD7413 /* Support Files */,
-				9D2002B72D13E49CBB21D0FF2803547B /* UI */,
+				1D3DE8EEF4FC88295339413AB249F08D /* Bolts.framework */,
+				6F6F875D392108A5AE82735BE3A2B833 /* FBSDKCoreKit.framework */,
+				E3A269A025E7A091359F649F6B3BD7F9 /* FBSDKLoginKit.framework */,
+				260990EFB6AE0AAFCC343A50F18F0132 /* FBSDKShareKit.framework */,
+				D85FDAA4E496FA5C171365348345CEF9 /* libSocialFacebook.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8510CF404702A96ADAAECCD28C7BBC17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5035CB388567133F211BB94BD3D3C7ED /* libSocialInstagram.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DB7EDC66E713C5CC21B9BB9F49870A6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				34D1B6FCA25A033BCAE69EE8A0101FA8 /* UMSocialSDKResources.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AD3C30580F2FB689F615460EDE61D052 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D48A04269C380FD800E99271B89C5C6E /* UShareUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5062C5195957840B70B308D92B7DB11 /* UMCShare */ = {
+			isa = PBXGroup;
+			children = (
+				385DD1E388BD6811E4A93C7F2609840D /* Core */,
+				FFEE08FF8E40CFA4475536A1A206A9C8 /* Social */,
+				F122B24156D5F23FCF8D206F17D4C268 /* Support Files */,
+				CEE35A6227861C8E9D9B7BD7EC30B961 /* UI */,
 			);
 			name = UMCShare;
 			path = UMCShare;
-			sourceTree = "<group>";
-		};
-		82C9800286D2C1ABE5A1515D67586BBC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				250B79450D79364CB8D3CC3EC8E3A6E2 /* libSocialTwitter.a */,
-				8F33099CCE6A21FF5ECB37B9A52ED98E /* TwitterCore.framework */,
-				E97226BF7F1B191C60D17C4A20EE9252 /* TwitterKit.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		82E9938919E880B0160D5CB26144A373 /* Instagram */ = {
-			isa = PBXGroup;
-			children = (
-				AA5D971F7396919ED6EA56B701880BDE /* UMSocialInstagramHandler.h */,
-				4AF9F4523BF12CAEC6C8A621EE1A854A /* Frameworks */,
-			);
-			name = Instagram;
-			sourceTree = "<group>";
-		};
-		92F8DB94D2AE839A1050A230A06F2B7E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5DC73519608886C5032DEC74585025C0 /* UMShare.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		9D2002B72D13E49CBB21D0FF2803547B /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				D61106F62E2370675DA0A2B2710CDE96 /* Frameworks */,
-				B74E2AEC1BC485F5072ABDCD8B6D57F4 /* Resources */,
-			);
-			name = UI;
-			sourceTree = "<group>";
-		};
-		B74E2AEC1BC485F5072ABDCD8B6D57F4 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				1831BC3944D9D1B24027EDB1E9FFDA52 /* UMSocialSDKResources.bundle */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		C560506A334277DE6F83793B3D89D468 /* Frameworks */ = {
@@ -270,12 +235,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D61106F62E2370675DA0A2B2710CDE96 /* Frameworks */ = {
+		CEE35A6227861C8E9D9B7BD7EC30B961 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				0A4DC294CB5B3C494E983F3D3CB0E1FD /* UShareUI.framework */,
+				AD3C30580F2FB689F615460EDE61D052 /* Frameworks */,
+				9DB7EDC66E713C5CC21B9BB9F49870A6 /* Resources */,
 			);
-			name = Frameworks;
+			name = UI;
 			sourceTree = "<group>";
 		};
 		E65DCB9E56437B47F4C583C1A2A2BC40 /* Support Files */ = {
@@ -287,24 +253,13 @@
 			path = "../Target Support Files/UMCCommon";
 			sourceTree = "<group>";
 		};
-		E6932650DC1146690AE176E5191F7732 /* Core */ = {
+		F122B24156D5F23FCF8D206F17D4C268 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				92F8DB94D2AE839A1050A230A06F2B7E /* Frameworks */,
+				526D18619F75F9D671E649CC9B001025 /* UMCShare.xcconfig */,
 			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		EA1C03F0A22BB6D1F0AC642FCCE13ED1 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D1F1B8DADBF4FB242455AC0E29D21075 /* Bolts.framework */,
-				4D9D3AC01D67106085BC11B26FC8C928 /* FBSDKCoreKit.framework */,
-				C9434BAB226177757171A0552EC4B1A9 /* FBSDKLoginKit.framework */,
-				3A789619183E1723366AA93B5A77388B /* FBSDKShareKit.framework */,
-				E99B6F1CAF3F17C24B7F1B0EC59F44B0 /* libSocialFacebook.a */,
-			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/UMCShare";
 			sourceTree = "<group>";
 		};
 		F51507E3047D4CB038976E9256608C5E /* Pods-LoginAndShare */ = {
@@ -319,6 +274,15 @@
 			);
 			name = "Pods-LoginAndShare";
 			path = "Target Support Files/Pods-LoginAndShare";
+			sourceTree = "<group>";
+		};
+		FFEE08FF8E40CFA4475536A1A206A9C8 /* Social */ = {
+			isa = PBXGroup;
+			children = (
+				582E70E0C64FB6E790F7A9C451790FDD /* Facebook */,
+				3EC8BA23EEFF0B633485B375613DB5D1 /* Instagram */,
+			);
+			name = Social;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -414,154 +378,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		5318290535A89C1D0D90F23612D68899 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4376439FE80F33001D50ADEF8AE9959A /* UMCCommon.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		6D4FFF3E6BEEFE5D4849F4DF1D9D3AF8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4376439FE80F33001D50ADEF8AE9959A /* UMCCommon.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		904EC2AEC2D233C4E078981E0D3A6E04 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3CD8D7610915F0ED371141A919146C1 /* UMCShare.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		AE5BE62E8236DCEC1623CBEBA8501B25 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B0507F2C32D7AE71492235F8499BF1FC /* Pods-LoginAndShare.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		BE01AF5D395AE305A54D518A9B774D2A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		CCB3B43C5258389E9E8176441EF55E73 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3CD8D7610915F0ED371141A919146C1 /* UMCShare.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		CFC8DEA7B5326676BA33093221AAE4F4 /* Debug */ = {
+		08B0394D5F17A9F046DC0719C25BA452 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -612,7 +429,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -625,7 +442,40 @@
 			};
 			name = Debug;
 		};
-		D2D8A68FBF0B6B6D804B978DE2AD5F82 /* Release */ = {
+		5318290535A89C1D0D90F23612D68899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4376439FE80F33001D50ADEF8AE9959A /* UMCCommon.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D4FFF3E6BEEFE5D4849F4DF1D9D3AF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4376439FE80F33001D50ADEF8AE9959A /* UMCCommon.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75FDE57D733CBB91B3682DA4A4145BDC /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7D901ACA2514134AF639046862EC5DE5 /* Pods-LoginAndShare.release.xcconfig */;
 			buildSettings = {
@@ -634,7 +484,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -644,6 +494,120 @@
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85C11DF7A148311900B6711120600A21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0507F2C32D7AE71492235F8499BF1FC /* Pods-LoginAndShare.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		904EC2AEC2D233C4E078981E0D3A6E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 526D18619F75F9D671E649CC9B001025 /* UMCShare.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCB3B43C5258389E9E8176441EF55E73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 526D18619F75F9D671E649CC9B001025 /* UMCShare.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E82C56363775B4EF468FF2AD9A2F5414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
@@ -662,8 +626,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CFC8DEA7B5326676BA33093221AAE4F4 /* Debug */,
-				BE01AF5D395AE305A54D518A9B774D2A /* Release */,
+				08B0394D5F17A9F046DC0719C25BA452 /* Debug */,
+				E82C56363775B4EF468FF2AD9A2F5414 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -671,8 +635,8 @@
 		C3A3836756607CC7256C929891C4609B /* Build configuration list for PBXNativeTarget "Pods-LoginAndShare" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AE5BE62E8236DCEC1623CBEBA8501B25 /* Debug */,
-				D2D8A68FBF0B6B6D804B978DE2AD5F82 /* Release */,
+				85C11DF7A148311900B6711120600A21 /* Debug */,
+				75FDE57D733CBB91B3682DA4A4145BDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

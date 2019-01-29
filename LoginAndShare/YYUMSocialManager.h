@@ -10,6 +10,7 @@
 #import <UMShare/UMShare.h>
 #import "YYShareModel.h"
 #import "YYAccountModel.h"
+#import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 typedef void (^YYLoginBlock)(YYAccountModel *, NSError *);
@@ -33,6 +34,11 @@ typedef void (^YYShareBlock)(BOOL, NSError *);
 + (void)loginWith:(UMSocialPlatformType)platform
 completionHandler:(YYLoginBlock)handler;
 
+/** 更新到最新版的友盟对 twitter 的支持不友好*/
++ (void)twitterLoginWithRootView:(UIViewController *)rootView
+                completionHandle:(YYLoginBlock)handler;
+
+
 /**
  社会化分享
  
@@ -50,6 +56,12 @@ completionHandler:(YYShareBlock)handler;
  @param url 本地视频链接
  @param handler 回调
  */
+
++ (void)shareTotwitterWithResourcePath:(NSString *)resourcePath
+                              rootView:(UIViewController *)rootView;
+
++ (void)shareToInstagramWitResourcePath:(NSString *)resourcePath
+                               rootView:(UIViewController *)rootView;
 
 
 @end

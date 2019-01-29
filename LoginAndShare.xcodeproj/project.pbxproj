@@ -17,8 +17,30 @@
 		2F271D85217ED6250011D2F1 /* YYShareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F271D84217ED6250011D2F1 /* YYShareModel.m */; };
 		2F271D88217ED6440011D2F1 /* YYAccountModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F271D87217ED6440011D2F1 /* YYAccountModel.m */; };
 		2F271D9621805D9C0011D2F1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F271D89217EF9C90011D2F1 /* CoreData.framework */; };
+		2FDA3FF32200632A007732D5 /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2FDA3FF02200632A007732D5 /* TwitterKitResources.bundle */; };
+		2FDA3FF42200632A007732D5 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FDA3FF12200632A007732D5 /* TwitterKit.framework */; };
+		2FDA3FF52200632A007732D5 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FDA3FF22200632A007732D5 /* TwitterCore.framework */; };
+		2FDA3FF622006576007732D5 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FDA3FF12200632A007732D5 /* TwitterKit.framework */; };
+		2FDA3FF722006576007732D5 /* TwitterKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2FDA3FF12200632A007732D5 /* TwitterKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2FDA3FF822006579007732D5 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FDA3FF22200632A007732D5 /* TwitterCore.framework */; };
+		2FDA3FF922006579007732D5 /* TwitterCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2FDA3FF22200632A007732D5 /* TwitterCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		957125D742D1C334AC7F6D8F /* libPods-LoginAndShare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCBBAA58FA9D97F7109D2C05 /* libPods-LoginAndShare.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2FDA3FE522005BED007732D5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2FDA3FF722006576007732D5 /* TwitterKit.framework in Embed Frameworks */,
+				2FDA3FF922006579007732D5 /* TwitterCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		13A505FFC4B44D76D5DF1244 /* Pods-LoginAndShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginAndShare.release.xcconfig"; path = "Target Support Files/Pods-LoginAndShare/Pods-LoginAndShare.release.xcconfig"; sourceTree = "<group>"; };
@@ -39,6 +61,9 @@
 		2F271D86217ED6440011D2F1 /* YYAccountModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYAccountModel.h; sourceTree = "<group>"; };
 		2F271D87217ED6440011D2F1 /* YYAccountModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYAccountModel.m; sourceTree = "<group>"; };
 		2F271D89217EF9C90011D2F1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2FDA3FF02200632A007732D5 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TwitterKitResources.bundle; sourceTree = "<group>"; };
+		2FDA3FF12200632A007732D5 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
+		2FDA3FF22200632A007732D5 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
 		71023FD5EB5F078F88835335 /* Pods-LoginAndShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginAndShare.debug.xcconfig"; path = "Target Support Files/Pods-LoginAndShare/Pods-LoginAndShare.debug.xcconfig"; sourceTree = "<group>"; };
 		DCBBAA58FA9D97F7109D2C05 /* libPods-LoginAndShare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LoginAndShare.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -49,7 +74,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F271D9621805D9C0011D2F1 /* CoreData.framework in Frameworks */,
+				2FDA3FF822006579007732D5 /* TwitterCore.framework in Frameworks */,
+				2FDA3FF622006576007732D5 /* TwitterKit.framework in Frameworks */,
+				2FDA3FF52200632A007732D5 /* TwitterCore.framework in Frameworks */,
 				957125D742D1C334AC7F6D8F /* libPods-LoginAndShare.a in Frameworks */,
+				2FDA3FF42200632A007732D5 /* TwitterKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +112,7 @@
 				2F11A19C2180664200063560 /* YYUMSocialManager.m */,
 				2F271D6C217EC7710011D2F1 /* ViewController.h */,
 				2F271D6D217EC7710011D2F1 /* ViewController.m */,
+				2FDA3FEF2200632A007732D5 /* Twitter */,
 				2F271D82217ED6110011D2F1 /* Model */,
 				2F271D6F217EC7710011D2F1 /* Main.storyboard */,
 				2F271D72217EC7720011D2F1 /* Assets.xcassets */,
@@ -102,6 +132,16 @@
 				2F271D87217ED6440011D2F1 /* YYAccountModel.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		2FDA3FEF2200632A007732D5 /* Twitter */ = {
+			isa = PBXGroup;
+			children = (
+				2FDA3FF02200632A007732D5 /* TwitterKitResources.bundle */,
+				2FDA3FF12200632A007732D5 /* TwitterKit.framework */,
+				2FDA3FF22200632A007732D5 /* TwitterCore.framework */,
+			);
+			path = Twitter;
 			sourceTree = "<group>";
 		};
 		AD67F0D56849B31AB73C5349 /* Frameworks */ = {
@@ -134,6 +174,7 @@
 				2F271D63217EC7710011D2F1 /* Frameworks */,
 				2F271D64217EC7710011D2F1 /* Resources */,
 				5EB3036522EB40822DF9AF2C /* [CP] Copy Pods Resources */,
+				2FDA3FE522005BED007732D5 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -181,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FDA3FF32200632A007732D5 /* TwitterKitResources.bundle in Resources */,
 				2F271D76217EC7720011D2F1 /* LaunchScreen.storyboard in Resources */,
 				2F271D73217EC7720011D2F1 /* Assets.xcassets in Resources */,
 				2F271D71217EC7710011D2F1 /* Main.storyboard in Resources */,
@@ -221,16 +263,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LoginAndShare/Pods-LoginAndShare-resources.sh",
-				"${PODS_ROOT}/UMCShare/UMShare/SocialLibraries/Twitter/TwitterKitResources.bundle",
-				"${PODS_ROOT}/UMCShare/UMShare/SocialLibraries/Twitter/TwitterShareExtensionUIResources.bundle",
 				"${PODS_ROOT}/UMCShare/UMShare/UMSocialUI/UMSocialSDKResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterShareExtensionUIResources.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,6 +433,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8LQ47K46NT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LoginAndShare/Vendor/Twitter",
+					"$(PROJECT_DIR)/LoginAndShare/Twitter",
+				);
 				INFOPLIST_FILE = LoginAndShare/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -402,7 +445,7 @@
 					"@executable_path/Frameworks",
 				);
 				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cnj.saiya.int;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cnj.loginshare.int;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -415,6 +458,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8LQ47K46NT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LoginAndShare/Vendor/Twitter",
+					"$(PROJECT_DIR)/LoginAndShare/Twitter",
+				);
 				INFOPLIST_FILE = LoginAndShare/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -422,7 +470,7 @@
 					"@executable_path/Frameworks",
 				);
 				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cnj.saiya.int;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cnj.loginshare.int;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

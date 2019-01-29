@@ -23,7 +23,8 @@
 }
 
 - (IBAction)twitterLogin:(id)sender {
-    [YYUMSocialManager loginWith:UMSocialPlatformType_Twitter completionHandler:^(YYAccountModel * model, NSError * error) {
+    [YYUMSocialManager twitterLoginWithRootView:self completionHandle:^(YYAccountModel * model, NSError * error) {
+        
     }];
 }
 
@@ -33,8 +34,7 @@
 }
 
 - (IBAction)twitterShare:(id)sender {
-    [YYUMSocialManager shareWith:UMSocialPlatformType_Twitter shareModel:self.shareModel completionHandler:^(BOOL isSuccess, NSError * error) {
-    }];
+    [YYUMSocialManager shareTotwitterWithResourcePath:@"" rootView:self];
 }
 
 - (IBAction)facebookShare:(id)sender {
@@ -43,8 +43,7 @@
 }
 
 - (IBAction)instagramShare:(id)sender {
-    [YYUMSocialManager shareWith:UMSocialPlatformType_Instagram shareModel:self.shareModel completionHandler:^(BOOL isSuccess, NSError * error) {
-    }];
+    [YYUMSocialManager shareToInstagramWitResourcePath:@"" rootView:self];
 }
 
 

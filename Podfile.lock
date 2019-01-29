@@ -1,24 +1,20 @@
 PODS:
-  - UMCCommon (1.5.2)
-  - UMCShare/Core (6.9.4):
+  - UMCCommon (1.5.3)
+  - UMCShare/Core (6.9.5):
     - UMCCommon
-  - UMCShare/Social/Facebook (6.9.4):
-    - UMCCommon
-    - UMCShare/Core
-  - UMCShare/Social/Instagram (6.9.4):
+  - UMCShare/Social/Facebook (6.9.5):
     - UMCCommon
     - UMCShare/Core
-  - UMCShare/Social/Twitter (6.9.4):
+  - UMCShare/Social/Instagram (6.9.5):
     - UMCCommon
     - UMCShare/Core
-  - UMCShare/UI (6.9.4):
+  - UMCShare/UI (6.9.5):
     - UMCCommon
     - UMCShare/Core
 
 DEPENDENCIES:
   - UMCShare/Social/Facebook
   - UMCShare/Social/Instagram
-  - UMCShare/Social/Twitter
   - UMCShare/UI
 
 SPEC REPOS:
@@ -27,9 +23,9 @@ SPEC REPOS:
     - UMCShare
 
 SPEC CHECKSUMS:
-  UMCCommon: 4392868ac47ff1b101663106bb114ba616fabbad
-  UMCShare: aa233aecad67979930fe43f3a2f676023b669439
+  UMCCommon: 016af43c0f769feb1ae1861d65aaf2b23b89c9c7
+  UMCShare: 552b29753f1b4da87b51d96545ed19e6263df397
 
-PODFILE CHECKSUM: 891d5e1be4f2782424cc1da202f26fa81116496a
+PODFILE CHECKSUM: 9ce641c28ba7ffd2c08582ddf50f83479c4694a6
 
 COCOAPODS: 1.6.0.beta.2

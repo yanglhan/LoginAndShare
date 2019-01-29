@@ -12,6 +12,7 @@
 #import <FBSDKLoginKit/FBSDKLoginKit.h>
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
 #import "YYUMSocialManager.h"
+#import <TwitterKit/TWTRKit.h>
 
 @interface AppDelegate ()
 
@@ -34,6 +35,8 @@
                                        appSecret:@"" redirectURL:@"http://mobile.umeng.com/social"];
     
     [[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_Instagram appKey:@"1e24ee7c48101897d55808c05f860247" appSecret:@"" redirectURL:@"http://mobile.umeng.com/social"];
+    
+    [[Twitter sharedInstance] startWithConsumerKey:@"gAJCfCx18lY3SdXnT9vsOT7Sb" consumerSecret:@"v64tQkknq5hDS9gWOwTukyYDzpZD32Ik8Au5VF7dr4oaiJpinM"];
 
 }
 

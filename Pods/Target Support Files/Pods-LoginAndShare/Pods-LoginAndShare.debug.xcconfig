@@ -1,8 +1,8 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/UMCCommon" "${PODS_ROOT}/UMCShare/UMShare" "${PODS_ROOT}/UMCShare/UMShare/SocialLibraries/Facebook" "${PODS_ROOT}/UMCShare/UMShare/SocialLibraries/Twitter" "${PODS_ROOT}/UMCShare/UMShare/UMSocialUI"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/UMCCommon" "${PODS_ROOT}/UMCShare/UMShare" "${PODS_ROOT}/UMCShare/UMShare/SocialLibraries/Facebook" "${PODS_ROOT}/UMCShare/UMShare/UMSocialUI"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/UMCShare"
-LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/UMCShare/UMShare/SocialLibraries/Facebook" "${PODS_ROOT}/UMCShare/UMShare/SocialLibraries/Instagram" "${PODS_ROOT}/UMCShare/UMShare/SocialLibraries/Twitter"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"SocialFacebook" -l"SocialInstagram" -l"SocialTwitter" -l"sqlite3" -l"z" -framework "Bolts" -framework "CoreData" -framework "CoreGraphics" -framework "CoreTelephony" -framework "FBSDKCoreKit" -framework "FBSDKLoginKit" -framework "FBSDKShareKit" -framework "QuartzCore" -framework "SystemConfiguration" -framework "TwitterCore" -framework "TwitterKit" -framework "UMCommon" -framework "UMShare" -framework "UShareUI"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/UMCShare/UMShare/SocialLibraries/Facebook" "${PODS_ROOT}/UMCShare/UMShare/SocialLibraries/Instagram"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"SocialFacebook" -l"SocialInstagram" -l"sqlite3" -l"z" -framework "Bolts" -framework "CoreGraphics" -framework "CoreTelephony" -framework "FBSDKCoreKit" -framework "FBSDKLoginKit" -framework "FBSDKShareKit" -framework "QuartzCore" -framework "SystemConfiguration" -framework "UMCommon" -framework "UMShare" -framework "UShareUI"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

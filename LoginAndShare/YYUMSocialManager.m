@@ -8,12 +8,15 @@
 
 #import <UIKit/UIKit.h>
 #import "YYUMSocialManager.h"
+#import <TwitterKit/TWTRKit.h>
 
 @implementation YYUMSocialManager
 
 + (void)setUmSocialAppkey:(NSString *)umSocialAppkey openLog:(BOOL)isLog{
     [[UMSocialManager defaultManager] openLog:isLog];
 }
+
+#pragma mark - login
 
 + (void)loginWith:(UMSocialPlatformType)platform
 completionHandler:(YYLoginBlock)handler {
@@ -34,6 +37,67 @@ completionHandler:(YYLoginBlock)handler {
         !handler ?: handler(model,error);
     }];
 }
+
++ (void)twitterLoginWithRootView:(UIViewController *)rootView
+                completionHandle:(YYLoginBlock)handler {
+    [[Twitter sharedInstance] logInWithCompletion:^(TWTRSession *session, NSError *error) {
+        if (session) {
+            TWTRAPIClient *client = [[TWTRAPIClient alloc] init];
+            [client loadUserWithID:[session userID] completion:^(TWTRUser *user, NSError *error) {
+                YYAccountModel *model = [YYAccountModel new];
+                if (user && !error) {
+                    model.nickname = user.name;
+                    model.uid = user.userID;
+                    model.iconurl = user.profileImageLargeURL;
+                    model.accessToken = session.authToken;
+                }
+                if (handler) {
+                    handler(model,error);
+                }
+            }];
+        } else {
+            NSLog(@"error: %@", [error localizedDescription]);
+            if (handler) {
+                YYAccountModel *model = [YYAccountModel new];
+                handler(model,error);
+            }
+        }
+    }];
+}
+
+#pragma mark - share
+
++ (void)shareTotwitterWithResourcePath:(NSString *)resourcePath
+                              rootView:(UIViewController *)rootView{
+    NSURL *resourceUrl = [NSURL URLWithString:[NSString stringWithFormat:@"twitter://library?LocalIdentifier=%@",resourcePath]];
+    if (@available(iOS 10.0, *)) {
+        NSDictionary *options = @{UIApplicationOpenURLOptionUniversalLinksOnly : @NO};
+        if ([[UIApplication sharedApplication] canOpenURL:resourceUrl]) {
+            [[UIApplication sharedApplication] openURL:resourceUrl options:options completionHandler:nil];
+        }
+    } else {
+        if ([[UIApplication sharedApplication] canOpenURL:resourceUrl]) {
+            [[UIApplication sharedApplication] openURL:resourceUrl];
+        }
+    }
+}
+
++ (void)shareToInstagramWitResourcePath:(NSString *)resourcePath
+                               rootView:(UIViewController *)rootView {
+    NSURL *resourceUrl = [NSURL URLWithString:[NSString stringWithFormat:@"instagram://library?LocalIdentifier=%@",resourcePath]];
+    if (@available(iOS 10.0, *)) {
+        NSDictionary *options = @{UIApplicationOpenURLOptionUniversalLinksOnly : @NO};
+        if ([[UIApplication sharedApplication] canOpenURL:resourceUrl]) {
+            [[UIApplication sharedApplication] openURL:resourceUrl options:options completionHandler:nil];
+        }
+    } else {
+        if ([[UIApplication sharedApplication] canOpenURL:resourceUrl]) {
+            [[UIApplication sharedApplication] openURL:resourceUrl];
+        }
+    }
+}
+
+
 
 + (void)shareWith:(UMSocialPlatformType)platform
        shareModel:(YYShareModel *)model
