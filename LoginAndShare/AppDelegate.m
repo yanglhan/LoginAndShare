@@ -31,7 +31,7 @@
     /* 设置Facebook的appKey和UrlString */
     [UMConfigure initWithAppkey:@"5bce94e9b465f57cbe00027e" channel:nil];
     [[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_Facebook
-                                          appKey:@"3f25f76324a795e12c01ee966b3d5fde"
+                                          appKey:@"c5d742eae96cda4673fea02ddde15832"
                                        appSecret:@"" redirectURL:@"http://mobile.umeng.com/social"];
     
     [[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_Instagram appKey:@"1e24ee7c48101897d55808c05f860247" appSecret:@"" redirectURL:@"http://mobile.umeng.com/social"];

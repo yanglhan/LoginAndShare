@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>LoginAndShare</string>
+	<string>ShortVideo</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -25,7 +25,7 @@
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>fb243938686474485</string>
+				<string>fb391109201716302</string>
 			</array>
 		</dict>
 		<dict>
@@ -40,7 +40,7 @@
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>FacebookAppID</key>
-	<string>243938686474485</string>
+	<string>391109201716302</string>
 	<key>FacebookDisplayName</key>
 	<string>LoginAndShare</string>
 	<key>LSApplicationQueriesSchemes</key>

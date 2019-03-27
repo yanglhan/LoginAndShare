@@ -24,25 +24,41 @@
 
 - (IBAction)twitterLogin:(id)sender {
     [YYUMSocialManager twitterLoginWithRootView:self completionHandle:^(YYAccountModel * model, NSError * error) {
-        
+        if (error) {
+            NSLog(@"%@",error.localizedDescription);
+        } else {
+            /** 打印 model 信息*/
+        }
     }];
 }
 
 - (IBAction)facebookLogin:(id)sender {
     [YYUMSocialManager loginWith:UMSocialPlatformType_Facebook completionHandler:^(YYAccountModel * model, NSError * error) {
+        if (error) {
+            NSLog(@"%@",error.localizedDescription);
+        } else {
+            /** model*/
+        }
     }];
 }
 
 - (IBAction)twitterShare:(id)sender {
+    /** 跳转分享*/
     [YYUMSocialManager shareTotwitterWithResourcePath:@"" rootView:self];
 }
 
 - (IBAction)facebookShare:(id)sender {
     [YYUMSocialManager shareWith:UMSocialPlatformType_Facebook shareModel:self.shareModel completionHandler:^(BOOL isSuccess, NSError * error) {
+        if (isSuccess && error == nil) {
+            NSLog(@"跳转成功");
+        } else {
+            NSLog(@"跳转失败");
+        }
     }];
 }
 
 - (IBAction)instagramShare:(id)sender {
+    /** 跳转分享*/
     [YYUMSocialManager shareToInstagramWitResourcePath:@"" rootView:self];
 }
 
